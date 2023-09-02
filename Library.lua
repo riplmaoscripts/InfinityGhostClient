@@ -1,3 +1,5 @@
+for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do if v.Name == "unknown" then v:Destroy() end
+
 local library = {}
 
 local TweenService = game:GetService("TweenService")
