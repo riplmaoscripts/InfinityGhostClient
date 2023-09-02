@@ -1,4 +1,4 @@
-for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do if v.Name == "unknown" then v:Destroy() end
+for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do if v.Name == "unknown" then v:Destroy() end end -- edited to delete any other uis
 
 local library = {}
 
